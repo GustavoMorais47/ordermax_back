@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p .",
     "dev": "ts-node-dev /src/index.ts",
-    "start": "node dist/src/index.js"
+    "start": "node /dist/src/index.js"
   },
   "author": "Gustavo Morais",
   "license": "ISC",

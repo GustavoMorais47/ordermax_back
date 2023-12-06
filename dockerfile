@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expor a porta necessária pela aplicação
-EXPOSE 8080
+EXPOSE 80
 
 # Definir o comando para iniciar a aplicação
 CMD ["npm", "run", "dev"]
